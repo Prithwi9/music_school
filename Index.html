@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("violin-1906127.jpg");
+            background-size: 100% auto;
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            left: 35px;
+            top: 28px;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 28px auto;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 11px;
+            top: 28px;
+            height: 100px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 22px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 18px 12px;
+            font-style: italic;
+            font-weight: 15px;
+            text-align: center;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: rgb(74, 210, 62);
+            text-decoration: underline;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .left div:hover {
+            color: rgb(7, 172, 238);
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            background-color: rgb(180, 220, 86);
+            color: rgb(232, 153, 5);
+            margin: 0px 5px;
+            padding: 4px 7px;
+            border: 2px solid rgb(24, 192, 16);
+            border-radius: 10px;
+            font-size: 26px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: 18px;
+        }
+
+        .btn a {
+            text-decoration: none;
+        }
+
+        .btn a:hover {
+            color: rgb(232, 15, 77);
+        }
+
+        .container {
+            position: absolute;
+            left: 20px;
+            margin: 200px 60px;
+            padding: 20px;
+            border-radius: 50px;
+            height: 100px;
+            width: auto;
+            cursor: pointer;
+        }
+
+        .form-group input {
+            display: block;
+            text-align: center;
+            width: 200px;
+            padding: 8px;
+            margin: 2px auto;
+            font-size: 17px;
+            border-radius: 10px;
+
+        }
+
+        .butn {
+            background-color: rgb(183, 234, 41);
+            font-size: 30px;
+            border-radius: 10px;
+        }
+
+        .container h6 {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .container button {
+            display: block;
+            width: 25;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        .butn a {
+            font-style: italic;
+            color: rgb(20, 0, 169);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+        }
+
+        .butn a:hover {
+            color: rgb(249, 8, 8);
+        }
+    </style>
+</head>
+
+<body>
+       <header class="header">
+        <!-- left box logo dene ke liye -->
+        <div class="left">
+            <img src="p logo 2.jpg" style="height: 50px;" alt="">
+            <br>
+            <div><strong>P Musizx</strong></div>
+        </div> 
+        <!-- mid box navbar ke liye -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/Home page.html" target="_blank">Home</a></li>
+                <li><a href="/About us.html"target="_blank">About Us</a></li>
+                <li><a href="/Courses.html"target="_blank">Courses</a></li>
+                <li><a href="/Contact us.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box buttons ke liye -->
+        <div class="right">
+            <button class="btn"><a href="https://instagram.com" target="_blank">Insta</a></button>
+            <button class="btn"><a href="https://gmail.com" target="_blank">Mail</a></button>
+        </div>
+    </header>  
+    
+    <div class="container">
+        <h6><strong> Be a part of Pmusizx classes</strong></h6>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Select Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Select instrument">
+            </div>
+            <button class="butn"><a> Submit</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
